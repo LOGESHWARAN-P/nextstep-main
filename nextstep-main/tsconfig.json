@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     "app/mock-interview/page.jsx",
     "app/room/[roomid]/page.js"
-  ],
+, "app/SkillAssessment.tsx"  ],
   "exclude": ["node_modules"]
 }

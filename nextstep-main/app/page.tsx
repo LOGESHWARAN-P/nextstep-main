@@ -14,26 +14,12 @@ export default function Page() {
     <>
       <div className={styles.hero}>
         <div className={styles.leftSection}>
-          <h1>Your Future, One Step Ahead with AI</h1>
-          <span>
-            Transform your professional journey with personalized insights and
-            career tracking. NextStep empowers you to bridge skill gaps, plan
-            your growth, and stay ahead in an ever-evolving world.
-          </span>
           <div className={styles.ctaSection}>
             <CTAButton />
             <CTAChat />
           </div>
         </div>
 
-        <div className={styles.rightSection}>
-          <Image
-            src="/ai-career.png"
-            alt="Hero Section Image"
-            width={500}
-            height={435}
-          />
-        </div>
       </div>
 
       <div id="about" className={styles.aboutSection}>

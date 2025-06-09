@@ -38,15 +38,16 @@ export default function Navbar() {
         <li>
           <Link href="/#about">About</Link>
         </li>
-        <li>
-          <Link href="/SkillAssessmentPage">SkillAssessment</Link>
-        </li>
+
         <li>
           <Link href="/career-path">Career Paths</Link>
         </li>
         <li>
           <Link href="/training-program">Training Program</Link>
         </li>
+        <li>
+            <Link href="/career-comparison">Career Comparison</Link>
+          </li>
       
       </ul>
       <div className={styles.rightSection}>
